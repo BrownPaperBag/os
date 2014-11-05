@@ -1,0 +1,19 @@
+{
+    "name": "brownpaperbag/os",
+    "description": "Package to detect server operating system and its data-path width processor.",
+    "keywords": ["operating", "system", "detect", "32bit", "64bit"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Agostini",
+            "email": "edu.agostini@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.0.2"
+    },
+    "autoload": {
+        "psr-4": { "BrownPaperBag\\": "src/" }
+    }
+}
